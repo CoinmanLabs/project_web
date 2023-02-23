@@ -3,10 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   env: {
-    sep: '@',
-    root_zh: '../docs_zh',
-    sql: '../chunjun-examples/sql',
-    json: '../chunjun-examples/json'
+    sep: '@'
   },
   i18n: {
     locales: ['en-US', 'zh-Hans'],
