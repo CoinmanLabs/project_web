@@ -24,7 +24,7 @@ const AppShowCase = () => {
             color: primaryColor.toString()
           }}
         />
-        Become a contributor to Chunjun
+        Become a owner to CFX BAYC
       </h1>
       <div
         className=" grid md:grid-cols-6 gap-2 rounded-md grid-cols-2 border p-[30px]"
@@ -37,17 +37,10 @@ const AppShowCase = () => {
         {members.map((item) => (
           <div key={item.id}>
             <a
-              href={item.html_url}
               target="blank"
               className="flex items-center m-sm hover:underline transition-all duration-100 flex-1 text-center"
             >
-              <Image
-                width={40}
-                height={40}
-                src={`https://github.com/${item.login}.png?size=40`}
-                alt={item.login}
-                className="mr-1"
-              />{' '}
+              {' '}
               <span className="font-mono text-sm"> {item.login} </span>
             </a>
           </div>

@@ -23,7 +23,7 @@ const AppMedium = () => {
         className="font-mono mb-24 md:text-3xl text-xl capitalize text-center font-bold "
         style={{ color: primaryColor.darken(0.5).toString() }}
       >
-        easy to learn. easy to use.
+        unique REC-721
       </h1>
       <div className="grid md:grid-cols-3 grid-cols-1 md:gap-6 gap-3">
         <section className="border p-10">
@@ -43,7 +43,7 @@ const AppMedium = () => {
                 weight={500}
                 className="font-bold w-full text-lg capitalize"
               >
-                基于Flink
+                Conflux based
               </Text>
             </Group>
 
@@ -51,18 +51,19 @@ const AppMedium = () => {
               size="md"
               className="text-gray-600 leading-6 text-center capitalize"
             >
-              兼容Flink SQL语法,如果您使用过Flink,那么您可以很快的上手chunjun!
+              onflux enables creators, communities, and markets to connect across borders and protocols
             </Text>
-
+            <a href="https://confluxnetwork.org/">
             <Button
               variant="light"
               color="green"
               fullWidth
-              onClick={() => router.push(`/documents/快速开始`)}
+              // onClick={() => router.push(`/documents/快速开始`)}
               className="underline mt-[14px]"
             >
-              阅读我们的文档
+              Conflux Website
             </Button>
+            </a>
           </Card>
         </section>
         <section className="border p-10">
@@ -82,7 +83,7 @@ const AppMedium = () => {
                 weight={500}
                 className="font-bold w-full text-lg capitalize"
               >
-                部署支持
+                介绍
               </Text>
             </Group>
 
@@ -90,8 +91,7 @@ const AppMedium = () => {
               size="md"
               className="text-gray-600 leading-6 text-center capitalize"
             >
-              支持Docker一键部署、K8S
-              部署运行,在您所青睐的平台上部署chunjun应用。
+              特点介绍
             </Text>
 
             <Button
@@ -100,7 +100,7 @@ const AppMedium = () => {
               fullWidth
               className="mt-[14px] underline"
             >
-              开始了解如何部署
+              特点介绍
             </Button>
           </Card>
         </section>
@@ -121,7 +121,7 @@ const AppMedium = () => {
                 weight={500}
                 className="font-bold w-full text-lg capitalize"
               >
-                易拓展，高灵活
+               特点介绍
               </Text>
             </Group>
 
@@ -129,7 +129,7 @@ const AppMedium = () => {
               size="md"
               className="text-gray-600 leading-6 text-center capitalize"
             >
-              插件开发者无需关心其他插件的代码逻辑，新拓展的数据源插件可以与现有数据源插件即时互通。
+              特点介绍
             </Text>
 
             <Button
@@ -141,7 +141,7 @@ const AppMedium = () => {
               }
               className="underline mt-[14px]"
             >
-              了解更多
+             特点介绍
             </Button>
           </Card>
         </section>

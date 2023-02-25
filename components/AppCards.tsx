@@ -18,13 +18,18 @@ const AppCards = () => {
         className="w-full h-full items-center flex dark:text-[#797a7d]"
       >
         <section className="w-[50%] h-full flex items-center justify-center">
-          <h1
+          {/* <h1
             data-aos="fade-down"
             className="text-center h-full items-center flex md:text-5xl   font-bold  capitalize"
             style={{ color: primaryColor.darken(0.5).toString() }}
           >
-            Core features
-          </h1>
+            Conflux BAYC */}
+            <Image
+                src="/assets/img/top.png "
+                height={500}
+                width={600}
+              />
+          {/* </h1> */}
         </section>
         <section
           className="h-[400px] mx-[40px] w-[1px]"
@@ -43,7 +48,7 @@ const AppCards = () => {
                 alt="code"
               />
               <Text size={'sm'} align="center">
-                基于json、sql 构建任务
+                Conflux上第一个BAYC数字藏品合集
               </Text>
             </div>
             <div className="w-full flex flex-col items-center space-y-6">
@@ -55,7 +60,7 @@ const AppCards = () => {
                 alt="trans"
               />
               <Text size={'sm'} align="center">
-                支持多种异构数据源之间数据传输
+                DAO的入场卷
               </Text>
             </div>
             <div className="w-full flex flex-col items-center space-y-6">
@@ -67,7 +72,7 @@ const AppCards = () => {
                 alt="sync"
               />
               <Text size={'sm'} align="center">
-                支持断点续传、增量同步
+                持有该NFT后续会有空投代币
               </Text>
             </div>
             <div className="w-full flex flex-col items-center space-y-6">
@@ -79,7 +84,7 @@ const AppCards = () => {
                 alt="dirty-data"
               />
               <Text size={'sm'} align="center">
-                支持任务脏数据存储管理
+                测试
               </Text>
             </div>
             <div className="w-full flex flex-col items-center space-y-6">
@@ -91,7 +96,7 @@ const AppCards = () => {
                 alt="schema"
               />
               <Text size={'sm'} align="center">
-                支持Schema同步
+                测试
               </Text>
             </div>
             <div className="w-full flex flex-col items-center space-y-6">
@@ -103,7 +108,7 @@ const AppCards = () => {
                 alt="collect"
               />
               <Text size={'sm'} align="center">
-                支持RDBS数据源实时采集
+                测试
               </Text>
             </div>
           </div>

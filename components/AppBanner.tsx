@@ -14,12 +14,11 @@ const AppBanner = () => {
               color: primaryColor.darken(0.5).alpha(0.9).toString()
             }}
           >
-            ChunJun
+            Conflux BAYC
           </span>{' '}
-          纯钧
         </p>
         <p className="inline-block xl:text-4xl font-mono text-xl text-center mb-6 font-bold">
-          基于Flink之上提供稳定，高效，易用的 批流一体的数据集成工具
+          基于Conflux之上BAYC的数字藏品
         </p>
       </div>
     </section>

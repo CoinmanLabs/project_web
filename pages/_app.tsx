@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         withNormalizeCSS
       >
         <Head>
-          <title>纯钧</title>
+          <title>Conflux Bayc</title>
           <meta name="description" content="纯钧Chunjun" />
           <link rel="icon" href="/logo-dark.svg" />
         </Head>

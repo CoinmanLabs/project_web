@@ -12,6 +12,7 @@ import Image from 'next/image'
 import logo from '@/public/logo-dark.svg'
 import { headerLinks } from '@/config/headerLinks'
 import Link from 'next/link'
+import ConnectWallet from '@/components/ConnectWallet'
 
 type Props = {
   theme: ColorScheme
@@ -36,7 +37,7 @@ const AppHeader = (props: Props) => {
         <div className="flex px-[30px] md:mr-10 mr-0">
           <Image src={logo} height={48} width={48} alt="logo of chunjun" />
           <Text className="text-xl capitalize flex items-center font-raleway">
-            Chunjun
+            CFX BAYC
           </Text>
         </div>
         <div className="h-full md:flex hidden items-center">
@@ -95,37 +96,16 @@ const AppHeader = (props: Props) => {
       </div>
 
       <div className="h-full flex items-center space-x-4 pr-[9px]">
-        {/* <Menu
-          shadow="md"
-          width={100}
-          trigger="hover"
-          openDelay={100}
-          closeDelay={200}
-          position="bottom"
-        >
-          <Menu.Target>
-            <ActionIcon variant="transparent">
-              <Language />
-            </ActionIcon>
-          </Menu.Target>
-          <Menu.Dropdown>
-            <Menu.Item>简体中文</Menu.Item>
-            <Menu.Item>English</Menu.Item>
-          </Menu.Dropdown>
-        </Menu> */}
-        <SegmentedControl
-          data={[
-            { label: '简体中文', value: 'zh-Hans' },
-            { label: 'English', value: 'en' }
-          ]}
-        />
         <ActionIcon
           variant="outline"
           color={theme === 'dark' ? 'yellow' : 'blue'}
           onClick={changeTheme}
         >
-          {theme === 'light' ? <Sun /> : <Moon />}
+          {theme === 'light' ?  <Moon /> :<Sun />}
         </ActionIcon>
+        <div className="">
+            <ConnectWallet />
+          </div>
       </div>
     </Header>
   )
